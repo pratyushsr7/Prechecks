@@ -4,7 +4,8 @@ import snowflake.connector
 
 def prechecks_app():
     snowflake_connection = snowflake.connector.connect(
-        host = 'slb78176.us-east-1.privatelink.snowflakecomputing.com:443',
+        # host = 'slb78176.us-east-1.privatelink.snowflakecomputing.com:443',
+        host = 'https://slb78176.us-east-1.snowflakecomputing.com/',
         account = 'slb78176', 
         user = 'CSH_AUTOMATION_USER', 
         password = 'dUstaxamezif6ajef4Is',
